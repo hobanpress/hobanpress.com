@@ -1,282 +1,322 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-
-	<!-- Basic Page Needs
+  <head>
+    <!-- Basic Page Needs
   ================================================== -->
-	<meta charset="utf-8">
-	<title>Hoban Press &ndash; Custom Letterpress Printing</title>
-	<meta name="description" content="Hoban Press specializes in affordable letterpress business cards and stationery items for creative individuals, freelancers and small businesses.">
-	<meta name="author" content="Evan Calkins">
-	<meta name="keywords" content="letterpress, business cards, calling cards, stationery, wedding invitations, wedding stationery">
+    <meta charset="utf-8" />
+    <title>Hoban Press &ndash; Custom Letterpress Printing</title>
+    <meta
+      name="description"
+      content="Hoban Press specializes in affordable letterpress business cards and stationery items for creative individuals, freelancers and small businesses."
+    />
+    <meta name="author" content="Evan Calkins" />
+    <meta
+      name="keywords"
+      content="letterpress, business cards, calling cards, stationery, wedding invitations, wedding stationery"
+    />
 
-	<!-- Mobile Specific Metas
+    <!-- Mobile Specific Metas
   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-	<!-- CSS
+    <!-- CSS
   ================================================== -->
-	<link rel="stylesheet" href="assets/css/normalize.css" />
-	<link rel="stylesheet" href="assets/css/base.css" />
-	<link rel="stylesheet" href="assets/css/skeleton.css" />
-	<link rel="stylesheet" href="assets/css/layout.css" />
-	
-	<!-- RSS
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/skeleton.css" />
+    <link rel="stylesheet" href="assets/css/layout.css" />
+
+    <!-- RSS
 	================================================== -->
 
-	
     <script type="text/javascript" src="https://use.typekit.net/dna0ndj.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  
+    <script type="text/javascript">
+      try {
+        Typekit.load();
+      } catch (e) {}
+    </script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-	
-	<script src="assets/js/jquery.fitvids.js"></script>
 
-  <script>
-  
-    $( document ).ready(function() {
-			
-		if($('nav').length > 0) {
-			
-	      var distance = $('nav').offset().top-74,
-	          $window = $(window);
-			
-	      $window.scroll(function() {
-	          if($(window).width() > 1059 ) {
-	            if ( $window.scrollTop() >= distance ) {
-	              $('nav').css({"position" : "fixed", "top" : "40px"});
-	            } else {
-	              $('nav').css({"position" : "relative", "top" : "0"});
-	            }
-	          } else {
-	            $('nav').css({"position" : "relative", "top" : "0"});
-	          }
-	      });
-			
-			}
-			
-		// video scaling
-	
-		$(".content").fitVids();
+    <script src="assets/js/jquery.fitvids.js"></script>
 
-    });
-  </script>
+    <script>
+      $(document).ready(function () {
+        if ($("nav").length > 0) {
+          var distance = $("nav").offset().top - 74,
+            $window = $(window);
 
-</head>
-<body id="home"><div id="wrapper">
-  <div id="head-container">
-  	<div class="container">
+          $window.scroll(function () {
+            if ($(window).width() > 1059) {
+              if ($window.scrollTop() >= distance) {
+                $("nav").css({ position: "fixed", top: "40px" });
+              } else {
+                $("nav").css({ position: "relative", top: "0" });
+              }
+            } else {
+              $("nav").css({ position: "relative", top: "0" });
+            }
+          });
+        }
 
-  		<div class="sixteen columns">
-        <div class="row">
-          <div class="five columns alpha">
-            <h1 class="logo"><a href="/">Hoban Press - Letterpress Business Cards &amp; Stationery</a></h1>
-          </div>
-          <div class="eleven columns omega" style="position:relative;">
-            <h2>We’re <strong>Hoban Press</strong> – three printmakers running a tiny letterpress shop specializing in minimal printing for creative individuals and small businesses.</h2>
+        // video scaling
+
+        $(".content").fitVids();
+      });
+    </script>
+  </head>
+  <body id="home">
+    <div id="wrapper">
+      <div id="head-container">
+        <div class="container">
+          <div class="sixteen columns">
+            <div class="row">
+              <div class="five columns alpha">
+                <h1 class="logo"><a href="/">Hoban Press - Letterpress Business Cards &amp; Stationery</a></h1>
+              </div>
+              <div class="eleven columns omega" style="position: relative">
+                <h2>
+                  We’re <strong>Hoban Press</strong> – three printmakers running a tiny letterpress shop specializing in
+                  minimal printing for creative individuals and small businesses.
+                </h2>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-  	</div>
-  </div>
+      <div id="body-container">
+        <div class="container">
+          <div class="sixteen columns">
+            <div class="row">
+              <div class="five columns alpha">
+                <nav>
+                  <ul class="raq">
+                    <li><a class="quote" href="quote">Request a Quote</a></li>
+                  </ul>
+                  <div class="main-nav">
+                    <h3 style="margin-left: 10px">At Your Service</h3>
+                    <ul style="margin-left: 10px">
+                      <li><a href="about-us">See our Shop</a></li>
+                      <li><a href="capabilities">Capabilities</a></li>
+                      <li><a href="portfolio">Examples</a></li>
+                      <li><a href="https://hobancards.com">Pre Designed</a></li>
+                    </ul>
+                    <h3 style="margin-left: 10px">Correspondence</h3>
+                    <ul style="margin-left: 10px">
+                      <li><a href="https://instagram.com/hobanpress">Instagram</a></li>
+                      <li><a href="mailto:evan@hobanpress.com">Email</a></li>
+                    </ul>
+                  </div>
+                </nav>
+                <br />
+              </div>
+              <div class="eleven columns omega">
+                <div class="blog-heading">
+                  <h3>Journal & Highlighted Work</h3>
+                </div>
+                <section class="content journal">
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/dann-petty">
+                        <img
+                          src="assets/images/portfolio/dann_petty.jpg"
+                          alt="Dann Petty"
+                          data-rjs="2"
+                          class="portfolio-img"
+                        />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption">Dann Petty</h4>
+                      </div>
+                    </div>
 
-  <div id="body-container">
-  	<div class="container">
-  	  <div class="sixteen columns">
-        <div class="row">
-						
-<div class="five columns alpha">
-  <nav>
-    <ul class="raq">
-      <li><a class="quote" href="quote">Request a Quote</a></li>
-    </ul>
-	<div class="main-nav">
-	    <h3 style="margin-left:10px;">At Your Service</h3>
-	    <ul style="margin-left:10px;">
-	      <li><a href="about-us">See our Shop</a></li>
-	      <li><a href="capabilities">Capabilities</a></li>
-				<li><a href="portfolio">Examples</a></li>
-				<li><a href="https://hobancards.com">Pre Designed</a></li>
-	    </ul>
-	    <h3 style="margin-left:10px;">Correspondence</h3>
-	    <ul style="margin-left:10px;">
-	      <li><a href="https://instagram.com/hobanpress">Instagram</a></li>
-	      <li><a href="mailto:evan@hobanpress.com">Email</a></li>
-	    </ul>
-	</div>
-  </nav>
-  <br />
-</div>
-<div class="eleven columns omega">
-  
-  <div class="blog-heading">
-    <h3>Journal & Highlighted Work</h3>
-  </div>  
-  <section class="content journal">
-    
-        
-        
-		
-		
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/dann-petty">
-            	<img src="assets/images/portfolio/dann_petty.jpg" alt="Dann Petty" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption">Dann Petty</h4>
+                    <p>
+                      These beautifully designed cards were created for, and designed by
+                      <a href="http://twitter.com/dannpetty">@dannpetty</a>. I’ve enjoyed conversing with Dann over the
+                      course of this print job and have come to really appreciate his creative edge. Be sure to
+                      <a href="http://www.behance.net/dannpetty">check his work out</a>!
+                    </p>
+
+                    <p>
+                      These cards were printed on 220lb pearl white Crane Lettra stock.
+                      <a class="permalink" href="journal/dann-petty">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/milk">
+                        <img
+                          src="assets/images/portfolio/milk.jpg"
+                          alt="Milk, Inc."
+                          data-rjs="2"
+                          class="portfolio-img"
+                        />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption">Milk, Inc.</h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      I was honored when the Milk team hired me to print their new business cards. It was a pleasure
+                      working with <a href="./page-3">Kevin Rose</a> and <a href="./page-3">Daniel Burka</a>. Daniel
+                      designed these stunning, minimal cards, and they turned out amazing on the press. (Sharon
+                      <strike>McPeake</strike> Burka was co-designer on the Milk logo)
+                    </p>
+
+                    <p>
+                      A Batch of cards were printed on 110lb Crane Lettra Ecru, with another set printed on the extra
+                      thick 220lb stock. The Milk logo is centered on the card with a blind impression. The contact
+                      information on the reverse side was printed with a lighter impression to contrast the heavy
+                      impression on the logo.
+                    </p>
+
+                    <p>
+                      <strike
+                        >If you’re not familiar with Milk Inc., I’d encourage you to follow them on Twitter and sign up
+                        for their newsletter on their site: http://milkinc.com. Milk is working on some exciting new iOS
+                        applications, which, as a Mac nerd, I’m excited to get my hands on :)</strike
+                      >
+                      <strong>[Update]</strong>
+                      <a href="http://www.crunchbase.com/company/milk">Milk was aquired by Google</a>!
+                      <a class="permalink" href="journal/milk">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/owen-robert-perry">
+                        <img
+                          src="assets/images/portfolio/owen_robert_perry.jpg"
+                          alt="Owen Robert Perry"
+                          data-rjs="2"
+                          class="portfolio-img"
+                        />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption">Owen Robert Perry</h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      I printed these cards Owen Robert Perry, an interactive art director from Canada. Owen submitted
+                      this simple, yet stunning design - I think they turned out superb!
+                      <a class="permalink" href="journal/owen-robert-perry">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="post">
+                    <h2><a href="journal/hoban-cards">Introducing Hoban Cards</a></h2>
+                    <p>Today Hoban Press is launching a new Letterpress calling card service called Hoban Cards.</p>
+
+                    <p>
+                      The purpose of this service is to provide simple, elegant and affordable personalized calling
+                      cards. There are currently <strike>6</strike> 15 calling card templates to choose from. $75 will
+                      purchase 100 customized cards, letterpress printed on Crane Lettra 100% 110lb cotton stock.
+                    </p>
+
+                    <p>
+                      The calling card templates are all designed to be very simple with an emphasis on typography. The
+                      templates will be periodically changed out with new designs in order to keep the selection fresh
+                      and unique.
+                    </p>
+
+                    <h3>What exactly is a calling card?</h3>
+
+                    <p>
+                      Calling cards actually have a history of their own. In the 1800s to early 1900s Before traditional
+                      business cards, calling cards were used by individuals as a mark of their introduction or visit.
+                      <a href="http://artofmanliness.com/2008/09/07/the-gentlemans-guide-to-the-calling-card/"
+                        >Read more about the history of the calling card</a
+                      >.
+                    </p>
+
+                    <p>
+                      Nowadays, this tradition can still be leveraged to make a clever, memorable first impression -
+                      especially in a day where personal, tangible connections are in the decline.
+                    </p>
+
+                    <p>
+                      Each card features your first and last name followed by your choice of either an email address or
+                      a phone number. Simple, elegant and to the point.
+                    </p>
+
+                    <p>You can check this all out at <a href="http://hobancards.com">http://hobancards.com</a>.</p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="post">
+                    <h2><a href="journal/hoban-video">Hoban Press Video by Don Vintage</a></h2>
+                    <div class="video-container">
+                      <iframe
+                        src="http://player.vimeo.com/video/15547902"
+                        width="805"
+                        height="460"
+                        frameborder="0"
+                        webkitAllowFullScreen
+                        mozallowfullscreen
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+
+                    <p>
+                      Here is a short promotional video that gives a snapshot of the machinery and process I use to
+                      produce letterpress printed items.
+                    </p>
+
+                    <p>
+                      The video was produced by Isaac Freeman of DonVintage. Check out Isaac’s other work on Vimeo, and
+                      follow him on twitter: @isaacjfreeman.
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <!-- pagination -->
+
+                  <div class="pagination">
+                    <a class="prev" href="./page-2">Newer Posts &rarr;</a>
+                  </div>
+                </section>
+              </div>
             </div>
           </div>
-    
-          <p>These beautifully designed cards were created for, and designed by <a href="http://twitter.com/dannpetty">@dannpetty</a>. I’ve enjoyed conversing with Dann over the course of this print job and have come to really appreciate his creative edge. Be sure to <a href="http://www.behance.net/dannpetty">check his work out</a>!</p>
-
-<p>These cards were printed on 220lb pearl white Crane Lettra stock. <a class='permalink' href='journal/dann-petty'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/milk">
-            	<img src="assets/images/portfolio/milk.jpg" alt="Milk, Inc." data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption">Milk, Inc.</h4>
-            </div>
-          </div>
-    
-          <p>I was honored when the Milk team hired me to print their new business cards. It was a pleasure working with <a href="./page-3">Kevin Rose</a> and <a href="./page-3">Daniel Burka</a>. Daniel designed these stunning, minimal cards, and they turned out amazing on the press. (Sharon <strike>McPeake</strike> Burka was co-designer on the Milk logo)</p>
-
-<p>A Batch of cards were printed on 110lb Crane Lettra Ecru, with another set printed on the extra thick 220lb stock. The Milk logo is centered on the card with a blind impression. The contact information on the reverse side was printed with a lighter impression to contrast the heavy impression on the logo.</p>
-
-<p><strike>If you’re not familiar with Milk Inc., I’d encourage you to follow them on Twitter and sign up for their newsletter on their site: http://milkinc.com. Milk is working on some exciting new iOS applications, which, as a Mac nerd, I’m excited to get my hands on :)</strike> <strong>[Update]</strong> <a href="http://www.crunchbase.com/company/milk">Milk was aquired by Google</a>! <a class='permalink' href='journal/milk'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/owen-robert-perry">
-            	<img src="assets/images/portfolio/owen_robert_perry.jpg" alt="Owen Robert Perry" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption">Owen Robert Perry</h4>
-            </div>
-          </div>
-    
-          <p>I printed these cards Owen Robert Perry, an interactive art director from Canada. Owen submitted this simple, yet stunning design - I think they turned out superb! <a class='permalink' href='journal/owen-robert-perry'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="post">
-          <h2><a href="journal/hoban-cards">Introducing Hoban Cards</a></h2>
-          <p>Today Hoban Press is launching a new Letterpress calling card service called Hoban Cards.</p>
-
-<p>The purpose of this service is to provide simple, elegant and affordable personalized calling cards. There are currently <strike>6</strike> 15 calling card templates to choose from. $75 will purchase 100 customized cards, letterpress printed on Crane Lettra 100% 110lb cotton stock.</p>
-
-<p>The calling card templates are all designed to be very simple with an emphasis on typography. The templates will be periodically changed out with new designs in order to keep the selection fresh and unique.</p>
-
-<h3>What exactly is a calling card?</h3>
-
-<p>Calling cards actually have a history of their own. In the 1800s to early 1900s Before traditional business cards, calling cards were used by individuals as a mark of their introduction or visit. <a href="http://artofmanliness.com/2008/09/07/the-gentlemans-guide-to-the-calling-card/">Read more about the history of the calling card</a>.</p>
-
-<p>Nowadays, this tradition can still be leveraged to make a clever, memorable first impression - especially in a day where personal, tangible connections are in the decline.</p>
-
-<p>Each card features your first and last name followed by your choice of either an email address or a phone number. Simple, elegant and to the point.</p>
-
-<p>You can check this all out at <a href="http://hobancards.com">http://hobancards.com</a>.</p>
-        </article>
-  
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="post">
-          <h2><a href="journal/hoban-video">Hoban Press Video by Don Vintage</a></h2>
-          <div class="video-container"><iframe src="http://player.vimeo.com/video/15547902" width="805" height="460" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
-
-<p>Here is a short promotional video that gives a snapshot of the machinery and process I use to produce letterpress printed items.</p>
-
-<p>The video was produced by Isaac Freeman of DonVintage. Check out Isaac’s other work on Vimeo, and follow him on twitter: @isaacjfreeman.</p>
-        </article>
-  
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    		
-		<!-- pagination -->
-		
-				<div class="pagination">  
-
-		  			
-			
-		  		  <a class="prev" href="./page-2">Newer Posts &rarr;</a>
-		  
-		</div>
-		
-  </section>
-  
+          <!-- container -->
         </div>
       </div>
-    </div><!-- container -->
-  </div>
+      <!-- wrapper -->
+      <footer>
+        <div class="container">
+          <div class="sixteen columns">
+            <div class="row">
+              <div class="five columns alpha">
+                <a class="small-logo" href="/">Home</a>
+              </div>
+              <div class="eleven columns omega">
+                <p>
+                  Located in the small town of Chehalis Washington, just south of Washington State's capital, Hoban
+                  Press is a tiny letterpress shop owned by Evan Calkins. Friends Ben Ellis and Claire Green work with
+                  him the midst of 4 vintage letterpresses ranging from 1902 to 1970.<br />
+                  <a href="about-us">See our Shop</a>, <a href="portfolio">View our Portfolio</a>, or
+                  <a href="quote">get in touch</a> for a quote.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- wrapper -->
 
-  </div><!-- wrapper -->
-  <footer>
-    <div class="container">
-			<div class="sixteen columns">
-	      <div class="row">
-	      	<div class="five columns alpha">
-	      		<a class="small-logo" href="/">Home</a>
-	      	</div>
-					<div class="eleven columns omega">
-					
-
-						<p>
-							Located in the small town of Chehalis Washington, just south of Washington State's capital, Hoban Press is a tiny letterpress shop owned by Evan Calkins. Friends Ben Ellis and Claire Green work with him the midst of 4 vintage letterpresses ranging from 1902 to 1970.<br /> <a href="about-us">See our Shop</a>, <a href="portfolio">View our Portfolio</a>, or <a href="quote">get in touch</a> for a quote</a>.
-						</p>
-					
-					</div>
-	      </div>
-			</div>
-		</div>
-  </footer>
-
-  <script type="text/javascript" src="assets/js/retina.js"></script>
-
-</body>
+    <script type="text/javascript" src="assets/js/retina.js"></script>
+  </body>
 </html>

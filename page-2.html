@@ -1,639 +1,686 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-
-	<!-- Basic Page Needs
+  <head>
+    <!-- Basic Page Needs
   ================================================== -->
-	<meta charset="utf-8">
-	<title>Hoban Press &ndash; Custom Letterpress Printing</title>
-	<meta name="description" content="Hoban Press specializes in affordable letterpress business cards and stationery items for creative individuals, freelancers and small businesses.">
-	<meta name="author" content="Evan Calkins">
-	<meta name="keywords" content="letterpress, business cards, calling cards, stationery, wedding invitations, wedding stationery">
+    <meta charset="utf-8" />
+    <title>Hoban Press &ndash; Custom Letterpress Printing</title>
+    <meta
+      name="description"
+      content="Hoban Press specializes in affordable letterpress business cards and stationery items for creative individuals, freelancers and small businesses."
+    />
+    <meta name="author" content="Evan Calkins" />
+    <meta
+      name="keywords"
+      content="letterpress, business cards, calling cards, stationery, wedding invitations, wedding stationery"
+    />
 
-	<!-- Mobile Specific Metas
+    <!-- Mobile Specific Metas
   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-	<!-- CSS
+    <!-- CSS
   ================================================== -->
-	<link rel="stylesheet" href="assets/css/normalize.css" />
-	<link rel="stylesheet" href="assets/css/base.css" />
-	<link rel="stylesheet" href="assets/css/skeleton.css" />
-	<link rel="stylesheet" href="assets/css/layout.css" />
-	
-	<!-- RSS
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/skeleton.css" />
+    <link rel="stylesheet" href="assets/css/layout.css" />
+
+    <!-- RSS
 	================================================== -->
 
-	
     <script type="text/javascript" src="https://use.typekit.net/dna0ndj.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  
+    <script type="text/javascript">
+      try {
+        Typekit.load();
+      } catch (e) {}
+    </script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-	
-	<script src="assets/js/jquery.fitvids.js"></script>
 
-  <script>
-  
-    $( document ).ready(function() {
-			
-		if($('nav').length > 0) {
-			
-	      var distance = $('nav').offset().top-74,
-	          $window = $(window);
-			
-	      $window.scroll(function() {
-	          if($(window).width() > 1059 ) {
-	            if ( $window.scrollTop() >= distance ) {
-	              $('nav').css({"position" : "fixed", "top" : "40px"});
-	            } else {
-	              $('nav').css({"position" : "relative", "top" : "0"});
-	            }
-	          } else {
-	            $('nav').css({"position" : "relative", "top" : "0"});
-	          }
-	      });
-			
-			}
-			
-		// video scaling
-	
-		$(".content").fitVids();
+    <script src="assets/js/jquery.fitvids.js"></script>
 
-    });
-  </script>
+    <script>
+      $(document).ready(function () {
+        if ($("nav").length > 0) {
+          var distance = $("nav").offset().top - 74,
+            $window = $(window);
 
-</head>
-<body id="home"><div id="wrapper">
-  <div id="head-container">
-  	<div class="container">
+          $window.scroll(function () {
+            if ($(window).width() > 1059) {
+              if ($window.scrollTop() >= distance) {
+                $("nav").css({ position: "fixed", top: "40px" });
+              } else {
+                $("nav").css({ position: "relative", top: "0" });
+              }
+            } else {
+              $("nav").css({ position: "relative", top: "0" });
+            }
+          });
+        }
 
-  		<div class="sixteen columns">
-        <div class="row">
-          <div class="five columns alpha">
-            <h1 class="logo"><a href="/">Hoban Press - Letterpress Business Cards &amp; Stationery</a></h1>
-          </div>
-          <div class="eleven columns omega" style="position:relative;">
-            <h2>We’re <strong>Hoban Press</strong> – three printmakers running a tiny letterpress shop specializing in minimal printing for creative individuals and small businesses.</h2>
+        // video scaling
+
+        $(".content").fitVids();
+      });
+    </script>
+  </head>
+  <body id="home">
+    <div id="wrapper">
+      <div id="head-container">
+        <div class="container">
+          <div class="sixteen columns">
+            <div class="row">
+              <div class="five columns alpha">
+                <h1 class="logo"><a href="/">Hoban Press - Letterpress Business Cards &amp; Stationery</a></h1>
+              </div>
+              <div class="eleven columns omega" style="position: relative">
+                <h2>
+                  We’re <strong>Hoban Press</strong> – three printmakers running a tiny letterpress shop specializing in
+                  minimal printing for creative individuals and small businesses.
+                </h2>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-  	</div>
-  </div>
+      <div id="body-container">
+        <div class="container">
+          <div class="sixteen columns">
+            <div class="row">
+              <div class="five columns alpha">
+                <nav>
+                  <ul class="raq">
+                    <li><a class="quote" href="quote">Request a Quote</a></li>
+                  </ul>
+                  <div class="main-nav">
+                    <h3 style="margin-left: 10px">At Your Service</h3>
+                    <ul style="margin-left: 10px">
+                      <li><a href="about-us">See our Shop</a></li>
+                      <li><a href="capabilities">Capabilities</a></li>
+                      <li><a href="portfolio">Examples</a></li>
+                      <li><a href="https://hobancards.com">Pre Designed</a></li>
+                    </ul>
+                    <h3 style="margin-left: 10px">Correspondence</h3>
+                    <ul style="margin-left: 10px">
+                      <li><a href="https://instagram.com/hobanpress">Instagram</a></li>
+                      <li><a href="mailto:evan@hobanpress.com">Email</a></li>
+                    </ul>
+                  </div>
+                </nav>
+                <br />
+              </div>
+              <div class="eleven columns omega">
+                <div class="blog-heading">
+                  <h3>Journal & Highlighted Work</h3>
+                </div>
+                <section class="content journal">
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/fatma">
+                        <img
+                          src="assets/images/portfolio/fatma.jpg"
+                          alt="Fatma Design"
+                          data-rjs="2"
+                          class="portfolio-img"
+                        />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption">Fatma Design</h4>
+                      </div>
+                    </div>
 
-  <div id="body-container">
-  	<div class="container">
-  	  <div class="sixteen columns">
-        <div class="row">
-						
-<div class="five columns alpha">
-  <nav>
-    <ul class="raq">
-      <li><a class="quote" href="quote">Request a Quote</a></li>
-    </ul>
-	<div class="main-nav">
-	    <h3 style="margin-left:10px;">At Your Service</h3>
-	    <ul style="margin-left:10px;">
-	      <li><a href="about-us">See our Shop</a></li>
-	      <li><a href="capabilities">Capabilities</a></li>
-				<li><a href="portfolio">Examples</a></li>
-				<li><a href="https://hobancards.com">Pre Designed</a></li>
-	    </ul>
-	    <h3 style="margin-left:10px;">Correspondence</h3>
-	    <ul style="margin-left:10px;">
-	      <li><a href="https://instagram.com/hobanpress">Instagram</a></li>
-	      <li><a href="mailto:evan@hobanpress.com">Email</a></li>
-	    </ul>
-	</div>
-  </nav>
-  <br />
-</div>
-<div class="eleven columns omega">
-  
-  <div class="blog-heading">
-    <h3>Journal & Highlighted Work</h3>
-  </div>  
-  <section class="content journal">
-    
-        
-        
-		
-		
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/fatma">
-            	<img src="assets/images/portfolio/fatma.jpg" alt="Fatma Design" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption">Fatma Design</h4>
+                    <p>
+                      Two color, double sided business cards on 220lb Crane Lettra.
+                      <a class="permalink" href="journal/fatma">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/steel-city-church">
+                        <img
+                          src="assets/images/portfolio/steel_city_church.jpg"
+                          alt="Steel City Church"
+                          data-rjs="2"
+                          class="portfolio-img"
+                        />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption">Steel City Church</h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      Two color coasters on 220lb Crane Lettra for <a href="http://steelcity.cc/">Steel City Church</a>.
+                      <a class="permalink" href="journal/steel-city-church">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="post">
+                    <h2><a href="journal/facebook">Join Us on Facebook</a></h2>
+                    <p>
+                      I’ve hesitated to do this for quite some time, but in an effort to show a more personal side of
+                      Hoban Press, I’ve decided to create a Facebook page for posting shop pictures, history behind our
+                      vintage letterpresses, as well as some the nitty gritty details of the printing process.
+                    </p>
+
+                    <p>
+                      If you’re into that sort of thing,
+                      <a href="http://facebook.com/HobanPress">like us on Facebook</a> to follow our updates.
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/hoban-cards-case">
+                        <img
+                          src="assets/images/portfolio/hoban_card_case.jpg"
+                          alt=""
+                          data-rjs="2"
+                          class="portfolio-img"
+                        />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption"></h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      <a href="http://hobancards.com">Hoban Cards</a> will start selling card holders as an option with
+                      an order of calling cards for $10. These holders are made out of thick chipboard and open up wide,
+                      which is perfect for handling letterpress printed business cards on cotton stock - it prevents the
+                      cards from getting dinged and scuffed. The cases also feature a handsome inkless impression of the
+                      Hoban Press logo on the front.
+                    </p>
+
+                    <p>
+                      If you already have a set of cards, and just need a holder,
+                      <a href="http://bit.ly/card-holder">buy one here</a>!
+                      <a class="permalink" href="journal/hoban-cards-case">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/seesaw">
+                        <img src="assets/images/portfolio/seesaw.jpg" alt="Seesaw" data-rjs="2" class="portfolio-img" />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption">Seesaw</h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      Three color letterpress printed coasters on 220lb Crane Lettra for
+                      <a href="http://seesaw.co">seesaw.co</a>. <a class="permalink" href="journal/seesaw">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/kaori-drome">
+                        <img
+                          src="assets/images/portfolio/kaori_drome.jpg"
+                          alt="Kaori Drome"
+                          data-rjs="2"
+                          class="portfolio-img"
+                        />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption">Kaori Drome</h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      Some lovely square letterpress printed cards we made for the talented
+                      <a href="http://www.kaoridrome.com/">Kaori Drome</a>.
+                      <a class="permalink" href="journal/kaori-drome">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/clearview-tea">
+                        <img
+                          src="assets/images/portfolio/clearview_tea.jpg"
+                          alt="Clearview Tea Co."
+                          data-rjs="2"
+                          class="portfolio-img"
+                        />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption">Clearview Tea Co.</h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      Two color, double sided cards for
+                      <a href="http://clearviewtea.ca/">Clearview Tea Co.</a> Letterpress printed on 220lb Crane Lettra.
+                      <a class="permalink" href="journal/clearview-tea">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/hotel">
+                        <img
+                          src="assets/images/portfolio/hotel.jpg"
+                          alt="Hotel 1171"
+                          data-rjs="2"
+                          class="portfolio-img"
+                        />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption">Hotel 1171</h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      I believe letterpress printing excels at simplicity - These cards are a great example. Printed for
+                      Hotel 1171 on 220lb Crane Lettra. <a class="permalink" href="journal/hotel">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/gift-certificates">
+                        <img
+                          src="assets/images/portfolio/gift_certificate.jpg"
+                          alt=""
+                          data-rjs="2"
+                          class="portfolio-img"
+                        />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption"></h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      Today I am announcing some lovely gift certificates for use on
+                      <a href="http://hobancards.com">hobancards.com</a>.
+                    </p>
+
+                    <p>
+                      This will allow the giver to present a beautiful letterpress printed gift card, printed on the
+                      same stock and with the same quality that will be present on the final set of calling cards. A
+                      matching envelope will also included.
+                    </p>
+
+                    <p>
+                      This is a unique &amp; personal gift that will go well for any occasion. If you’re interested in a
+                      gift card, please <a href="https://hobancards.com/gifts">contact me</a>!
+                      <a class="permalink" href="journal/gift-certificates">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/sifter">
+                        <img src="assets/images/portfolio/sifter.jpg" alt="Sifter" data-rjs="2" class="portfolio-img" />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption">Sifter</h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      I had a pleasant time working with Garrett from Sifter on these. Their handsome logo worked
+                      perfectly for these simple double sided letterpress printed cards on 220lb Crane Lettra. They also
+                      wrote
+                      <a href="http://journal.sifterapp.com/blog/2012/05/cards-craft/">a nice journal entry</a> about
+                      them.
+                    </p>
+
+                    <p>
+                      Be sure to check out the <a href="https://sifterapp.com/">Sifter App</a> - It’s a slick web based
+                      bug &amp; issue tracking tool for small teams. <a class="permalink" href="journal/sifter">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/gentleman">
+                        <img src="assets/images/portfolio/gentleman.jpg" alt="" data-rjs="2" class="portfolio-img" />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption"></h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      They say, the carpenter’s house is never finished. Similarly, the letterpress printer never has
+                      any business cards. I’ve recently been embarrassed after explaining to friends an family how I
+                      make business cards for folks all over the world and I’m not able to provide them a card of my
+                      own!
+                    </p>
+
+                    <p>
+                      To remedy this, I’ve designed and printed a simple, one color card. I think it turned out well and
+                      exemplifies the simplicity and elegance that I’m trying to promote with my letterpress printed
+                      business and calling cards. <strong>[Update]</strong> These are now available as a
+                      <a href="https://hobancards.com/cards/11">Hoban Card calling card template to purchase</a>.
+                      <a class="permalink" href="journal/gentleman">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="post">
+                    <h2><a href="journal/hoban-cards-redesign">Introducing Hoban Cards &ndash; Redesigned!</a></h2>
+                    <p>
+                      I’m super excited to announce the launch of a brand new
+                      <a href="http://hobancards.com">Hoban Cards website</a>!
+                    </p>
+
+                    <p>
+                      In addition to a complete redesign and introduction to the <a href="./page-2">new logo</a>, the
+                      new site offers a few new calling card templates - including, two new monogram cards with blind
+                      impressions, as well as a simple
+                      <a href="https://hobancards.com/cards/the-twitter-card">Twitter card</a>.
+                    </p>
+
+                    <p>
+                      Also, free samples can now be ordered easily through the
+                      <a href="https://hobancards.com/samples">Samples page</a>.
+                    </p>
+
+                    <p>
+                      Lastly, I’ve launched a new newsletter dedicated to news and promotions surrounding Hoban Cards.
+                      Each month I’ll be offering special deals for newsletter subscribers. If you’re interested,
+                      <a href="http://eepurl.com/iAES-/">subscribe here</a>.
+                    </p>
+
+                    <p><a href="http://hobancards.com/">Take a look around</a> and let me know what you think!</p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/ryan-karpowicz">
+                        <img
+                          src="assets/images/portfolio/ryan_karpowicz.jpg"
+                          alt="Ryan Karpowicz"
+                          data-rjs="2"
+                          class="portfolio-img"
+                        />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption">Ryan Karpowicz</h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      This is a handsome card I designed and printed for
+                      <a href="http://karpowicz.org/">Ryan Karpowicz</a>. He came to me wanting a simple card and loved
+                      the blind impression. I’ve printed many minimal cards, but I think this layout, as of now, remains
+                      my favorite. <a class="permalink" href="journal/ryan-karpowicz">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/wesprout">
+                        <img
+                          src="assets/images/portfolio/wesprout.jpg"
+                          alt="WeSprout"
+                          data-rjs="2"
+                          class="portfolio-img"
+                        />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption">WeSprout</h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      A few weeks ago I finished some cards for WeSprout. They provided this wonderful design. I
+                      particularly loved the use of the blind impression in their logo and the social icons to organize
+                      their contact information.
+                    </p>
+
+                    <p>
+                      If you are a parent (or soon to be parent) of young children, make sure to checkout
+                      <a href="http://wesprout.org">http://wesprout.org</a>. It sounds like they are doing some really
+                      innovative and exciting things in that space. <a class="permalink" href="journal/wesprout">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/hoban-cards-logo">
+                        <img
+                          src="assets/images/portfolio/old_world_counterfeit.jpg"
+                          alt="Old World Counterfeit"
+                          data-rjs="2"
+                          class="portfolio-img"
+                        />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption">Old World Counterfeit</h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      I loved the design submitted by
+                      <a href="http://oldworldcounterfeit.bigcartel.com/">Old World Counterfeit</a> and
+                      <a href="http://www.dangretta.com/Old-World-Counterfeit">Dan Gretta</a> for these hang tags. These
+                      one color letterpress printed cards turned out to be one of my favorite designs I’ve put through
+                      the press.
+                    </p>
+
+                    <p>Printed on 110lb Crane Lettra. <a class="permalink" href="journal/hoban-cards-logo">∞</a></p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/old-world-counterfeit">
+                        <img src="assets/images/portfolio/hoban_logo.jpg" alt="" data-rjs="2" class="portfolio-img" />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption"></h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      Hoban Press and Hoban Cards is now outfitted with some branding beautifully hand illustrated by
+                      the talented Sharon <strike>McPeake</strike> Burka of
+                      <a href="http://sharonmcpeake.com">http://sharonmcpeake.com</a>.
+                      <a class="permalink" href="journal/old-world-counterfeit">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/substrata">
+                        <img
+                          src="assets/images/portfolio/substrata.jpg"
+                          alt="Substrata"
+                          data-rjs="2"
+                          class="portfolio-img"
+                        />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption">Substrata</h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      I had a great time working with the talented Chris Ellison of
+                      <a href="http://substrata.ca">substrata.ca</a>. Chris submitted this delightfully minimal layout
+                      and I had a great time printing it. The Substrata text sinking into the lower margin of the card
+                      as a blind impression perfectly exemplifies the Substrata brand.
+                    </p>
+
+                    <p>
+                      The cards were letterpress printed on 220lb Crane Lettra, Ecru. Photo credit goes to Chris
+                      himself! <a class="permalink" href="journal/substrata">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/david-airey">
+                        <img
+                          src="assets/images/portfolio/david_airey.jpg"
+                          alt="David Airey"
+                          data-rjs="2"
+                          class="portfolio-img"
+                        />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption">David Airey</h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      Recently, I’ve really been enjoying
+                      <a href="http://www.davidairey.com/">David Airey’s design blog</a>. After seeing
+                      <a href="http://www.davidairey.com/note-cards/">this post</a> about his experience with ordering
+                      cards from Moo.com, I was compelled to contact him and offer a batch of my cards in the same
+                      layout - I knew he’d love them!
+                    </p>
+
+                    <p>
+                      After receiving the cards, David
+                      <a href="http://www.davidairey.com/letterpress-note-cards/">wrote a nice post</a>. Thanks David!
+                      <a class="permalink" href="journal/david-airey">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/nudge">
+                        <img
+                          src="assets/images/portfolio/nudge.jpg"
+                          alt="Studio Nudge"
+                          data-rjs="2"
+                          class="portfolio-img"
+                        />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption">Studio Nudge</h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      When I received this design from Cy Coffman of Nudge, I was very excited to get started. The
+                      subtle circle texture as a blind impression worked out very well to frame in the contact
+                      information at the bottom.
+                    </p>
+
+                    <p>
+                      Be sure check out <a href="http://studionudge.com">http://studionudge.com</a> and their impressive
+                      website and design work!
+                    </p>
+
+                    <p>Printing on 110lb pearl white Crane Lettra. <a class="permalink" href="journal/nudge">∞</a></p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <article class="image">
+                    <div class="img-group">
+                      <a href="journal/joe-spano">
+                        <img
+                          src="assets/images/portfolio/joe_spano.jpg"
+                          alt="Joe Spano"
+                          data-rjs="2"
+                          class="portfolio-img"
+                        />
+                      </a>
+                      <div class="img-caption">
+                        <h4 class="caption">Joe Spano</h4>
+                      </div>
+                    </div>
+
+                    <p>
+                      I had the honor to layout and print this simple card for Joe Spano. The cards were an anniversary
+                      gift from his wife. Great gift choice!
+                    </p>
+
+                    <p>
+                      Printing on 110lb pearl white Crane Lettra. <a class="permalink" href="journal/joe-spano">∞</a>
+                    </p>
+                  </article>
+
+                  <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
+
+                  <!-- pagination -->
+
+                  <div class="pagination">
+                    <a class="next" href="./page-3">&larr; Older Posts</a>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <a class="prev" href="./">Newer Posts &rarr;</a>
+                  </div>
+                </section>
+              </div>
             </div>
           </div>
-    
-          <p>Two color, double sided business cards on 220lb Crane Lettra. <a class='permalink' href='journal/fatma'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/steel-city-church">
-            	<img src="assets/images/portfolio/steel_city_church.jpg" alt="Steel City Church" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption">Steel City Church</h4>
-            </div>
-          </div>
-    
-          <p>Two color coasters on 220lb Crane Lettra for <a href="http://steelcity.cc/">Steel City Church</a>. <a class='permalink' href='journal/steel-city-church'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="post">
-          <h2><a href="journal/facebook">Join Us on Facebook</a></h2>
-          <p>I’ve hesitated to do this for quite some time, but in an effort to show a more personal side of Hoban Press, I’ve decided to create a Facebook page for posting shop pictures, history behind our vintage letterpresses, as well as some the nitty gritty details of the printing process.</p>
-
-<p>If you’re into that sort of thing, <a href="http://facebook.com/HobanPress">like us on Facebook</a> to follow our updates.</p>
-        </article>
-  
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/hoban-cards-case">
-            	<img src="assets/images/portfolio/hoban_card_case.jpg" alt="" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption"></h4>
-            </div>
-          </div>
-    
-          <p><a href="http://hobancards.com">Hoban Cards</a> will start selling card holders as an option with an order of calling cards for $10. These holders are made out of thick chipboard and open up wide, which is perfect for handling letterpress printed business cards on cotton stock - it prevents the cards from getting dinged and scuffed. The cases also feature a handsome inkless impression of the Hoban Press logo on the front.</p>
-
-<p>If you already have a set of cards, and just need a holder, <a href="http://bit.ly/card-holder">buy one here</a>! <a class='permalink' href='journal/hoban-cards-case'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/seesaw">
-            	<img src="assets/images/portfolio/seesaw.jpg" alt="Seesaw" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption">Seesaw</h4>
-            </div>
-          </div>
-    
-          <p>Three color letterpress printed coasters on 220lb Crane Lettra for <a href="http://seesaw.co">seesaw.co</a>. <a class='permalink' href='journal/seesaw'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/kaori-drome">
-            	<img src="assets/images/portfolio/kaori_drome.jpg" alt="Kaori Drome" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption">Kaori Drome</h4>
-            </div>
-          </div>
-    
-          <p>Some lovely square letterpress printed cards we made for the talented <a href="http://www.kaoridrome.com/">Kaori Drome</a>. <a class='permalink' href='journal/kaori-drome'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/clearview-tea">
-            	<img src="assets/images/portfolio/clearview_tea.jpg" alt="Clearview Tea Co." data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption">Clearview Tea Co.</h4>
-            </div>
-          </div>
-    
-          <p>Two color, double sided cards for <a href="http://clearviewtea.ca/">Clearview Tea Co.</a> Letterpress printed on 220lb Crane Lettra. <a class='permalink' href='journal/clearview-tea'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/hotel">
-            	<img src="assets/images/portfolio/hotel.jpg" alt="Hotel 1171" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption">Hotel 1171</h4>
-            </div>
-          </div>
-    
-          <p>I believe letterpress printing excels at simplicity - These cards are a great example. Printed for Hotel 1171 on 220lb Crane Lettra. <a class='permalink' href='journal/hotel'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/gift-certificates">
-            	<img src="assets/images/portfolio/gift_certificate.jpg" alt="" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption"></h4>
-            </div>
-          </div>
-    
-          <p>Today I am announcing some lovely gift certificates for use on <a href="http://hobancards.com">hobancards.com</a>.</p>
-
-<p>This will allow the giver to present a beautiful letterpress printed gift card, printed on the same stock and with the same quality that will be present on the final set of calling cards. A matching envelope will also included.</p>
-
-<p>This is a unique &amp; personal gift that will go well for any occasion. If you’re interested in a gift card, please <a href="https://hobancards.com/gifts">contact me</a>! <a class='permalink' href='journal/gift-certificates'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/sifter">
-            	<img src="assets/images/portfolio/sifter.jpg" alt="Sifter" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption">Sifter</h4>
-            </div>
-          </div>
-    
-          <p>I had a pleasant time working with Garrett from Sifter on these. Their handsome logo worked perfectly for these simple double sided letterpress printed cards on 220lb Crane Lettra. They also wrote <a href="http://journal.sifterapp.com/blog/2012/05/cards-craft/">a nice journal entry</a> about them.</p>
-
-<p>Be sure to check out the <a href="https://sifterapp.com/">Sifter App</a> - It’s a slick web based bug &amp; issue tracking tool for small teams. <a class='permalink' href='journal/sifter'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/gentleman">
-            	<img src="assets/images/portfolio/gentleman.jpg" alt="" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption"></h4>
-            </div>
-          </div>
-    
-          <p>They say, the carpenter’s house is never finished. Similarly, the letterpress printer never has any business cards. I’ve recently been embarrassed after explaining to friends an family how I make business cards for folks all over the world and I’m not able to provide them a card of my own!</p>
-
-<p>To remedy this, I’ve designed and printed a simple, one color card. I think it turned out well and exemplifies the simplicity and elegance that I’m trying to promote with my letterpress printed business and calling cards. <strong>[Update]</strong> These are now available as a <a href="https://hobancards.com/cards/11">Hoban Card calling card template to purchase</a>. <a class='permalink' href='journal/gentleman'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="post">
-          <h2><a href="journal/hoban-cards-redesign">Introducing Hoban Cards &ndash; Redesigned!</a></h2>
-          <p>I’m super excited to announce the launch of a brand new <a href="http://hobancards.com">Hoban Cards website</a>!</p>
-
-<p>In addition to a complete redesign and introduction to the <a href="./page-2">new logo</a>, the new site offers a few new calling card templates - including, two new monogram cards with blind impressions, as well as a simple <a href="https://hobancards.com/cards/the-twitter-card">Twitter card</a>.</p>
-
-<p>Also, free samples can now be ordered easily through the <a href="https://hobancards.com/samples">Samples page</a>.</p>
-
-<p>Lastly, I’ve launched a new newsletter dedicated to news and promotions surrounding Hoban Cards. Each month I’ll be offering special deals for newsletter subscribers. If you’re interested, <a href="http://eepurl.com/iAES-/">subscribe here</a>.</p>
-
-<p><a href="http://hobancards.com/">Take a look around</a> and let me know what you think!</p>
-        </article>
-  
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/ryan-karpowicz">
-            	<img src="assets/images/portfolio/ryan_karpowicz.jpg" alt="Ryan Karpowicz" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption">Ryan Karpowicz</h4>
-            </div>
-          </div>
-    
-          <p>This is a handsome card I designed and printed for <a href="http://karpowicz.org/">Ryan Karpowicz</a>. He came to me wanting a simple card and loved the blind impression. I’ve printed many minimal cards, but I think this layout, as of now, remains my favorite. <a class='permalink' href='journal/ryan-karpowicz'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/wesprout">
-            	<img src="assets/images/portfolio/wesprout.jpg" alt="WeSprout" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption">WeSprout</h4>
-            </div>
-          </div>
-    
-          <p>A few weeks ago I finished some cards for WeSprout. They provided this wonderful design. I particularly loved the use of the blind impression in their logo and the social icons to organize their contact information.</p>
-
-<p>If you are a parent (or soon to be parent) of young children, make sure to checkout <a href="http://wesprout.org">http://wesprout.org</a>. It sounds like they are doing some really innovative and exciting things in that space. <a class='permalink' href='journal/wesprout'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/hoban-cards-logo">
-            	<img src="assets/images/portfolio/old_world_counterfeit.jpg" alt="Old World Counterfeit" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption">Old World Counterfeit</h4>
-            </div>
-          </div>
-    
-          <p>I loved the design submitted by <a href="http://oldworldcounterfeit.bigcartel.com/">Old World Counterfeit</a> and <a href="http://www.dangretta.com/Old-World-Counterfeit">Dan Gretta</a> for these hang tags. These one color letterpress printed cards turned out to be one of my favorite designs I’ve put through the press.</p>
-
-<p>Printed on 110lb Crane Lettra. <a class='permalink' href='journal/hoban-cards-logo'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/old-world-counterfeit">
-            	<img src="assets/images/portfolio/hoban_logo.jpg" alt="" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption"></h4>
-            </div>
-          </div>
-    
-          <p>Hoban Press and Hoban Cards is now outfitted with some branding beautifully hand illustrated by the talented Sharon <strike>McPeake</strike> Burka of <a href="http://sharonmcpeake.com">http://sharonmcpeake.com</a>. <a class='permalink' href='journal/old-world-counterfeit'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/substrata">
-            	<img src="assets/images/portfolio/substrata.jpg" alt="Substrata" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption">Substrata</h4>
-            </div>
-          </div>
-    
-          <p>I had a great time working with the talented Chris Ellison of <a href="http://substrata.ca">substrata.ca</a>. Chris submitted this delightfully minimal layout and I had a great time printing it. The Substrata text sinking into the lower margin of the card as a blind impression perfectly exemplifies the Substrata brand.</p>
-
-<p>The cards were letterpress printed on 220lb Crane Lettra, Ecru. Photo credit goes to Chris himself! <a class='permalink' href='journal/substrata'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/david-airey">
-            	<img src="assets/images/portfolio/david_airey.jpg" alt="David Airey" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption">David Airey</h4>
-            </div>
-          </div>
-    
-          <p>Recently, I’ve really been enjoying <a href="http://www.davidairey.com/">David Airey’s design blog</a>. After seeing <a href="http://www.davidairey.com/note-cards/">this post</a> about his experience with ordering cards from Moo.com, I was compelled to contact him and offer a batch of my cards in the same layout - I knew he’d love them!</p>
-
-<p>After receiving the cards, David <a href="http://www.davidairey.com/letterpress-note-cards/">wrote a nice post</a>. Thanks David! <a class='permalink' href='journal/david-airey'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/nudge">
-            	<img src="assets/images/portfolio/nudge.jpg" alt="Studio Nudge" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption">Studio Nudge</h4>
-            </div>
-          </div>
-    
-          <p>When I received this design from Cy Coffman of Nudge, I was very excited to get started. The subtle circle texture as a blind impression worked out very well to frame in the contact information at the bottom.</p>
-
-<p>Be sure check out <a href="http://studionudge.com">http://studionudge.com</a> and their impressive website and design work!</p>
-
-<p>Printing on 110lb pearl white Crane Lettra. <a class='permalink' href='journal/nudge'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    
-        
-        <article class="image">
-          
-          <div class="img-group">
-						<a href="journal/joe-spano">
-            	<img src="assets/images/portfolio/joe_spano.jpg" alt="Joe Spano" data-rjs="2" class="portfolio-img">
-						</a>
-            <div class="img-caption">
-              <h4 class="caption">Joe Spano</h4>
-            </div>
-          </div>
-    
-          <p>I had the honor to layout and print this simple card for Joe Spano. The cards were an anniversary gift from his wife. Great gift choice!</p>
-
-<p>Printing on 110lb pearl white Crane Lettra. <a class='permalink' href='journal/joe-spano'>∞</a></p>
-          
-        </article>
-        
-			      
-            
-              
-        <span class="btw">• &nbsp;<span>•</span> &nbsp;•</span>
-      
-			    
-    		
-		<!-- pagination -->
-		
-				<div class="pagination">  
-
-		  		  <a class="next" href="./page-3">&larr; Older Posts</a>
-		  			
-							&nbsp;&nbsp;&nbsp;&nbsp; 
-			
-		  		  <a class="prev" href="./">Newer Posts &rarr;</a>
-		  
-		</div>
-		
-  </section>
-  
+          <!-- container -->
         </div>
       </div>
-    </div><!-- container -->
-  </div>
+      <!-- wrapper -->
+      <footer>
+        <div class="container">
+          <div class="sixteen columns">
+            <div class="row">
+              <div class="five columns alpha">
+                <a class="small-logo" href="/">Home</a>
+              </div>
+              <div class="eleven columns omega">
+                <p>
+                  Located in the small town of Chehalis Washington, just south of Washington State's capital, Hoban
+                  Press is a tiny letterpress shop owned by Evan Calkins. Friends Ben Ellis and Claire Green work with
+                  him the midst of 4 vintage letterpresses ranging from 1902 to 1970.<br />
+                  <a href="about-us">See our Shop</a>, <a href="portfolio">View our Portfolio</a>, or
+                  <a href="quote">get in touch</a> for a quote.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- wrapper -->
 
-  </div><!-- wrapper -->
-  <footer>
-    <div class="container">
-			<div class="sixteen columns">
-	      <div class="row">
-	      	<div class="five columns alpha">
-	      		<a class="small-logo" href="/">Home</a>
-	      	</div>
-					<div class="eleven columns omega">
-					
-
-						<p>
-							Located in the small town of Chehalis Washington, just south of Washington State's capital, Hoban Press is a tiny letterpress shop owned by Evan Calkins. Friends Ben Ellis and Claire Green work with him the midst of 4 vintage letterpresses ranging from 1902 to 1970.<br /> <a href="about-us">See our Shop</a>, <a href="portfolio">View our Portfolio</a>, or <a href="quote">get in touch</a> for a quote</a>.
-						</p>
-					
-					</div>
-	      </div>
-			</div>
-		</div>
-  </footer>
-
-  <script type="text/javascript" src="assets/js/retina.js"></script>
-
-</body>
+    <script type="text/javascript" src="assets/js/retina.js"></script>
+  </body>
 </html>
