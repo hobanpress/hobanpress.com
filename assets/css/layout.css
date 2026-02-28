@@ -1,0 +1,222 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+h1.logo a { display:block; text-indent:-9000px; background:url(../images/hp_logo.png); width:140px; 
+	height:140px; background-size:140px 140px; }
+
+
+#head-container.alt-header { padding-top:80px; padding-bottom:40px; text-align:center; }
+#head-container.alt-header h1.logo a { width:160px; height:67px; background-size:160px 67px; }
+#head-container.alt-header h2 { font-size:50px; }
+#head-container.alt-header h3 { font-family:inherit; text-transform:none; letter-spacing:0; color:#555; font-size:29px; font-style:italic; }
+
+h3 { text-transform:uppercase; font-size:19px; }
+
+.blog-heading { text-align:center; margin-top:-78px; margin-bottom:40px; }
+.blog-heading h3 { background:#ffffff; font-size:16px; letter-spacing:2px; display:inline-block;
+  padding-left:14px; padding-right:14px; text-transform:uppercase; color:#b3b3b3; }
+
+#head-container { padding-top:70px; padding-bottom:10px; margin-bottom:60px;}
+  
+#head-container h2 { margin-bottom:30px; line-height:44px; font-size:35px; font-family: freight-sans-pro, sans-serif;}
+
+nav { padding-right:30px; }
+nav h3, footer h3, .content h3 { font-weight:500; font-size:15px; }
+nav ul li { font-family:"freight-sans-pro",sans-serif; font-size:25px; line-height:24px; color:black; }
+nav ul li a { text-decoration:none; color:#333; }
+
+nav ul li a.quote, a.send-quote { 
+	font-family: freight-sans-pro, sans-serif;
+	padding:10px 19px; 
+	font-size:18px; 
+	text-transform:uppercase; 
+  font-weight:600;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+	background:black;
+	text-decoration:none;
+  border-radius: 4px; color:#ffffff; letter-spacing:1px; display:inline-block; margin-top:10px; margin-bottom:8px; }
+	
+nav ul li a.quote:hover { background:#555; }
+
+section.content h3 {  }
+section.content ul { margin-left:20px; }
+section.content ul li { list-style-type:disc; }
+
+
+section.minutia h2 { font-family:freight-sans-pro; }
+section.minutia p, section.minutia ul { font-family:freight-sans-pro, sans-serif; font-size:17px; }
+
+section.minutia ul li { line-height:26px; }
+section.minutia ul.minutia-toc { padding:0; margin-bottom:20px; }
+section.minutia ul.minutia-toc li { list-style-type:none; margin:0; padding:0; float:left; display:block; width:290px; }
+section.minutia ul.minutia-toc li a { font-family:freight-sans-pro, sans-serif; color:green;}
+
+section.minutia ul.alt li { line-height:14px; } 
+
+section.minutia p.out { font-family:"apolline", serif; }
+
+article { margin-bottom:50px; }
+.permalink { text-decoration:none; }
+.container article h2 a { color:#000; text-decoration:none; }
+article a, article a:visited { text-decoration:none; font-weight:500; color:#1e98b7; }
+article h2 { font-size:26px; line-height:30px; margin-bottom:20px; }
+article p { font-size:19px; line-height:32px; font-weight:200; }
+article.image p { font-size:19px; line-height:32px; }
+
+article a.permalink, article a.permalink:visited { color:#ccc; }
+
+article img.portfolio-img, .card img, .content img  { width:100%; height:100%; }
+
+article img.portfolio-img, img.portfolio-grid-img, .content img {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+   }
+
+
+span.btw { display:block; text-align:center; margin-bottom:60px; color:#ccc;  }
+span.btw span { font-size:20px; vertical-align:center; }
+
+.img-group { position:relative; margin-bottom:20px; }
+.img-group .img-caption { 
+  position:absolute; bottom:7px; left:0; 
+  padding:14px 20px; background: rgba(0, 0, 0, 0.4);
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-left-radius: 4px;
+  }
+.img-group .img-caption h4 { margin-bottom:0; padding-bottom:0; color:#fff; font-family:"freight-sans-pro",sans-serif; }
+
+.video-container { margin-bottom:30px; }
+
+p.out, section.minutia p.out { font-size:23px; line-height:36px; font-weight:400; border-bottom:1px solid #eee; padding-bottom:20px;}
+.card { margin-bottom:20px; }
+
+.content-img { margin-bottom:10px; }
+
+/* pagination */
+
+div.pagination { text-align:center; font-family: freight-sans-pro, sans-serif; margin-bottom:-20px; margin-top:-26px; }
+div.pagination a { 
+	
+	font-size:15px; 
+	text-transform:uppercase;
+	text-decoration:none; 
+  font-weight:600;
+
+  color:#333; letter-spacing:1px; display:inline-block; margin-top:10px; margin-bottom:8px; }
+div.pagination a.next{  }
+
+
+/* footer */
+
+footer { margin-top:60px; background:black; color:white; }
+
+footer a.small-logo { display:block; width:100px; height:100px; background:url(../images/hp_logo_w.png);
+	 text-indent:-9000px; margin-top:10px; background-size:100px 100px; }
+
+footer .container {  margin-top:30px; padding-top:60px; padding-bottom:30px; }
+footer .container p { color:white; font-size:19px; line-height:32px; }
+footer .container p a, footer .container p a:visited { color:white; }
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 1399px) { 
+		h1.logo a { margin-top:0px; }
+    #head-container img { width:200px; }
+    #head-container h2 { font-size: 32px; line-height:38px; margin-bottom:12px; text-align:center; }
+  }
+	
+
+	@media only screen and (min-width: 1060px) and (max-width: 1399px) {
+		
+		#head-container h2 { margin-bottom:20px; }
+		
+	}
+  
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (max-width: 1059px) {
+		
+    h1.logo a { width:140px; height:140px; background-size:140px 140px; }
+		
+	}
+  
+  
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 1059px) {
+		
+		#head-container h2 { font-size: 28px; line-height:34px; text-align:center; }
+
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+	  #head-container { padding-top:50px; margin-bottom:20px; }
+	  .blog-heading { display:none; }
+	  nav ul { margin-bottom:20px; }
+		footer a.small-logo { display:none; } 
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	  h1.logo a { margin:0 auto; margin-top:0px; }
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+      h1.logo a { margin:0 auto; margin-top:10px; }
+	  nav { padding:0; }
+	  nav ul.raq { text-align:center; }
+	  body#sub .main-nav { display:none; }
+	  #head-container { padding-top:20px; padding-bottom:0; margin-bottom:0; }
+	  #head-container h2 { font-size: 24px; line-height:30px; margin-bottom:0; }
+	  #head-container img { margin-bottom:10px; }
+	  article img.portfolio-img { 
+	    -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      border-radius: 0px;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;  
+	   }
+		.img-caption { display:none; }
+		footer .container { margin-bottom:10px; }
+		footer .container p { margin-bottom:0; }
+	}
+
+  @media (min--moz-device-pixel-ratio: 1.5),
+         (-o-min-device-pixel-ratio: 3/2),
+         (-webkit-min-device-pixel-ratio: 1.5),
+         (min-device-pixel-ratio: 1.5),
+         (min-resolution: 144dpi),
+         (min-resolution: 1.5dppx) {
+
+  h1.logo a { background:url(../images/hp_logo.png) no-repeat; background-size:100%; }
+	footer a.small-logo { background:url(../images/hp_logo_w.png) no-repeat; background-size:100%; }
+	
+  }
